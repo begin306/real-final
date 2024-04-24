@@ -1,0 +1,154 @@
+body {
+  background-color: rgb(249, 249, 249);
+  margin: 0;
+  padding: 0;
+  font: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+/*Header*/
+header {
+  padding: 20px;
+  background-color: #35424a;
+  color: white;
+  min-height: 10px;
+  padding-top: 15px;
+  border-bottom: #9bc32a 5px solid;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header li {
+  display: inline;
+  padding: 0 10px;
+  float: left;
+}
+header #brading {
+  float: left;
+}
+header nav {
+  float: right;
+}
+header #branding h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header .highlight,
+header.current a {
+  color: #9bc32a;
+  font-weight: bold;
+}
+header a:hover {
+  color: #aaaaaa;
+  font-weight: bold;
+}
+header a:hover {
+  color: #aaaaaa;
+  font-weight: bold;
+}
+
+/*showcase*/
+#showcase {
+  background: url('img\스크린샷 2024-04-23 214025.png') no-repeat 0 -10px;
+  min-height: 20px;
+  text-align: center;
+}
+#showcase h1 {
+  margin: top 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+#showcase p {
+  font-size: 20px;
+}
+/*newsletter*/
+#newsletter {
+  background-color: #35424a;
+  color: white;
+  padding: 15px;
+}
+#newsletter h1 {
+  float: left;
+}
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+#newsletter input[type='email'] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+.button_1 {
+  height: 38px;
+  background-color: #e8491d;
+  border: 0;
+  padding: 0 20px;
+  color: white;
+}
+/*Boxes*/
+#boxes {
+  margin-top: 20px;
+}
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10 px;
+}
+#boxes .box img {
+  width: 100px;
+}
+/*Footar*/
+footer {
+  clear: both;
+  padding: 20px;
+  color: white;
+  background-color: #80a727;
+  text-align: center;
+}
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* 각 이미지에 애니메이션 적용 */
+.col-md-4 {
+  animation: slideInLeft 1s ease-in-out;
+}
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* 각 이미지에 애니메이션 적용 */
+.col-md-4 {
+  animation: slideInLeft 5s ease-in-out;
+}

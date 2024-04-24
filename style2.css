@@ -1,0 +1,127 @@
+body {
+  background-color: rgb(249, 249, 249);
+  margin: 0;
+  padding: 0;
+  font: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+/*Header*/
+header {
+  padding: 20px;
+  background-color: #35424a;
+  color: white;
+  min-height: 10px;
+  padding-top: 15px;
+  border-bottom: #9bc32a 5px solid;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header li {
+  display: inline;
+  padding: 0 10px;
+  float: left;
+}
+header #brading {
+  float: left;
+}
+header nav {
+  float: right;
+}
+header #branding h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header .highlight,
+header.current a {
+  color: #9bc32a;
+  font-weight: bold;
+}
+header a:hover {
+  color: #aaaaaa;
+  font-weight: bold;
+}
+header a:hover {
+  color: #aaaaaa;
+  font-weight: bold;
+}
+
+/*showcase*/
+#showcase {
+  background: url('./img/pexels-lukas-kloeppel-466685.jpg') no-repeat 0 -10px;
+  min-height: 300px;
+  text-align: center;
+  color: rgb(132, 180, 149);
+  background-size: cover;
+}
+#showcase h1 {
+  margin: top 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+#showcase p {
+  font-size: 20px;
+}
+/*newsletter*/
+#newsletter {
+  background-color: #35424a;
+  color: white;
+  padding: px;
+}
+#newsletter h1 {
+  float: left;
+}
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+#newsletter input[type='email'] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+.button_1 {
+  height: 38px;
+  background-color: #e8491d;
+  border: 0;
+  padding: 0 20px;
+  color: white;
+}
+/*Boxes*/
+#boxes {
+  margin-top: 20px;
+}
+main#boxes .box {
+  float: center;
+  text-align: center;
+  width: 100%;
+  padding: 10 px;
+}
+#boxes .box img {
+  width: 200px;
+}
+
+/*Footar*/
+footer {
+  clear: both;
+  padding: 20px;
+  color: white;
+  background-color: #80a727;
+  text-align: center;
+}
